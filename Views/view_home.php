@@ -1,1 +1,1 @@
-<h1>Bienvenue dans notre librairie</h1>
+<h1>Bienvenue dans notre application</h1>

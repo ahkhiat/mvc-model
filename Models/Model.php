@@ -9,7 +9,7 @@ class Model
     private function __construct()
     {
         try {
-            $this->bd = new PDO('mysql:host=localhost:3307;dbname=librairie-sami', 'root', '');
+            $this->bd = new PDO('mysql:host=localhost:3307;dbname=science-quiz-mvc', 'root', '');
             $this->bd->query("SET NAMES 'utf8'");
             $this->bd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         } 
